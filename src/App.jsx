@@ -1,6 +1,5 @@
 import React, { useState, useEffect, createContext, useContext } from 'react';
 import { ShoppingCart, Search, X, Plus, Minus, Trash2, CheckCircle, Eye } from 'lucide-react';
-import { Analytics } from "@vercel/analytics/next";
 
 // --- MOCK DATA (Algerian Handmade Products) ---
 const INITIAL_PRODUCTS = [
